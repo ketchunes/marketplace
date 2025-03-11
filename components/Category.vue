@@ -1,7 +1,7 @@
 <template>
     <div id="katalog" class="p-32">
         <div id="category" class="text-3xl">Популярные категории</div>
-        <div class="flex mt-8 gap-32 justify-center">
+        <div class="flex mt-8 gap-32 justify-center flex-wrap">
             <a href="#woman">
                 <div>
                     <div><img class="w-82" src="../public/img/category-1.png" alt=""></div>

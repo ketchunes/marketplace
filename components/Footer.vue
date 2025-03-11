@@ -1,7 +1,7 @@
 <template>
     <div id="footer" class="pb-5">
         <div class="border-y-2 py-3">
-            <div class="flex justify-between items-center px-32">
+            <div class="flex flex-col gap-4 lg:gap-0 lg:flex-row justify-between items-center px-10 xl:px-32">
                 <div class="flex gap-5 items-center">
                     <div><svg xmlns="http://www.w3.org/2000/svg" width="88" height="100" viewBox="0 0 88 100"
                             fill="none">
@@ -42,7 +42,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="flex flex-col">
+                <div class="flex gap-3 lg:flex-col">
                     <div>+7 777 231 33 44</div>
                     <div> fashion.ds@gmail.com</div>
                 </div>

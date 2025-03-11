@@ -2,7 +2,7 @@
     <div class="px-32 py-5">
         <div>
             <div id="woman" class="text-3xl mt-4 mb-12">Женщинам</div>
-            <div class="grid grid-cols-4 gap-10 mt-3">
+            <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-10 mt-3">
                 <div v-for="elem in lol" class="h-full flex flex-col gap-2">
                     <div><img class="w-full" :src="elem.img" alt=""></div>
                     <div class="text-lg">{{ elem.title }}</div>
@@ -12,7 +12,7 @@
                 </div>
             </div>
             <div id="man" class="text-3xl mb-12 mt-20">Мужчинам</div>
-            <div class="grid grid-cols-4 gap-10 mt-3">
+            <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-10 mt-3">
                 <div v-for="elem in kek" class="h-full flex flex-col gap-2">
                     <div><img class="w-full" :src="elem.img" alt=""></div>
                     <div class="text-lg">{{ elem.title }}</div>
@@ -22,7 +22,7 @@
                 </div>
             </div>
             <div id="all" class="text-3xl mb-12 mt-20">Распродажа</div>
-            <div class="grid grid-cols-4 gap-10 mt-3">
+            <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-10 mt-3">
                 <div v-for="elem in pelmeni" class="h-full flex flex-col gap-2">
                     <div><img class="w-full" :src="elem.img" alt=""></div>
                     <div class="text-lg">{{ elem.title }}</div>
