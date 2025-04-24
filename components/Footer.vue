@@ -1,16 +1,10 @@
 <template>
   <div id="footer" class="pb-5">
     <div class="border-y-2 py-3">
-      <div
-        class="flex flex-col gap-4 lg:gap-0 lg:flex-row justify-between items-center px-10 xl:px-32">
+      <div class="flex flex-col gap-4 lg:gap-0 lg:flex-row justify-between items-center px-10 xl:px-32">
         <div class="flex gap-5 items-center w-fit lg:w-full">
           <div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="88"
-              height="100"
-              viewBox="0 0 88 100"
-              fill="none">
+            <svg xmlns="http://www.w3.org/2000/svg" width="88" height="100" viewBox="0 0 88 100" fill="none">
               <path
                 d="M1.03073 23.807L43.0307 0.537022C43.6337 0.202933 44.3663 0.202933 44.9693 0.537022L86.9693 23.807C87.6053 24.1594 88 24.8293 88 25.5565V72.9852C88 73.6941 87.6248 74.35 87.0137 74.7093L45.0137 99.404C44.388 99.7719 43.612 99.7719 42.9863 99.404L0.986301 74.7093C0.37523 74.35 0 73.6941 0 72.9852V25.5565C0 24.8293 0.394672 24.1594 1.03073 23.807Z"
                 fill="#D32727" />
@@ -20,21 +14,14 @@
             </svg>
           </div>
           <div>
-            <div class="text-3xl">FASHION | DSTYLE</div>
+            <div class="text-3xl xs:text-2xl">FASHION | DSTYLE</div>
             <div>Man, Woman</div>
           </div>
         </div>
         <div class="flex gap-3 w-full justify-center">
           <div>
-            <a
-              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-              target="_blank">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="35"
-                height="35"
-                viewBox="0 0 22 22"
-                fill="none">
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 22 22" fill="none">
                 <path
                   fill-rule="evenodd"
                   clip-rule="evenodd"
@@ -44,15 +31,8 @@
             </a>
           </div>
           <div>
-            <a
-              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-              target="_blank">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="35"
-                height="35"
-                viewBox="0 0 22 22"
-                fill="none">
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 22 22" fill="none">
                 <path
                   d="M7.35534 8.84765C7.414 11.7077 8.844 13.4237 11.352 13.4237H11.4987V11.7883C12.419 11.88 13.1157 12.5547 13.3943 13.4237H14.696C14.5625 12.9299 14.3258 12.47 14.0016 12.0743C13.6774 11.6787 13.2729 11.3562 12.815 11.1283C13.2254 10.8784 13.5798 10.5466 13.8561 10.1535C14.1324 9.76051 14.3247 9.3147 14.421 8.84399H13.2403C12.9837 9.75332 12.221 10.5783 11.4987 10.6553V8.84765H10.3143V12.0157C9.581 11.8323 8.657 10.945 8.61667 8.84765H7.35534Z"
                   fill="#0CBFD8" />
@@ -67,16 +47,8 @@
         </div>
         <div class="flex w-fit items-end gap-3 lg:gap-0 lg:flex-col lg:w-full">
           <div class="flex-col">
-            <a class="w-fit" href=""
-              ><div class="hover:text-secondary-content">
-                +7 777 231 33 44
-              </div></a
-            >
-            <a class="w-fit" href=""
-              ><div class="hover:text-secondary-content">
-                fashion.ds@gmail.com
-              </div></a
-            >
+            <a class="w-fit" href=""><div class="hover:text-secondary-content">+7 777 231 33 44</div></a>
+            <a class="w-fit" href=""><div class="hover:text-secondary-content">fashion.ds@gmail.com</div></a>
           </div>
         </div>
       </div>

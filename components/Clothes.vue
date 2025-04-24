@@ -1,5 +1,5 @@
 <template>
-  <div class="px-32 py-5">
+  <div class="px-10 py-5 md:px-32">
     <div>
       <div id="woman" class="text-3xl mt-4 mb-12">Женщинам</div>
       <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-10 mt-3">
@@ -8,16 +8,13 @@
           <div class="text-lg">{{ elem.title }}</div>
           <div>Коллекция 2023-2024</div>
           <div class="text-secondary-content mb-auto">{{ elem.price }}</div>
-          <button
-            class="active:scale-95 rounded-md hover:cursor-pointer w-fit transition">
+          <button class="active:scale-95 rounded-md hover:cursor-pointer w-fit transition">
             <CardHover
               border-radius="var(--radius-box)"
               container-color="var(--color-base-200)"
               light-color="var(--color-secondary-content)"
               base-color="var(--color-base-200)">
-              <div class="py-2 px-4 font-semibold text-sm">
-                ДОБАВИТЬ В КОРЗИНУ
-              </div>
+              <div class="py-2 px-4 font-semibold text-sm">ДОБАВИТЬ В КОРЗИНУ</div>
             </CardHover>
           </button>
         </div>
@@ -29,16 +26,13 @@
           <div class="text-lg">{{ elem.title }}</div>
           <div>Коллекция 2023-2024</div>
           <div class="text-secondary-content mb-auto">{{ elem.price }}</div>
-          <button
-            class="active:scale-95 rounded-md hover:cursor-pointer w-fit transition">
+          <button class="active:scale-95 rounded-md hover:cursor-pointer w-fit transition">
             <CardHover
               border-radius="var(--radius-box)"
               container-color="var(--color-base-200)"
               light-color="var(--color-secondary-content)"
               base-color="var(--color-base-200)">
-              <div class="py-2 px-4 font-semibold text-sm">
-                ДОБАВИТЬ В КОРЗИНУ
-              </div>
+              <div class="py-2 px-4 font-semibold text-sm">ДОБАВИТЬ В КОРЗИНУ</div>
             </CardHover>
           </button>
         </div>
@@ -50,16 +44,13 @@
           <div class="text-lg">{{ elem.title }}</div>
           <div>Коллекция 2023-2024</div>
           <div class="text-secondary-content mb-auto">{{ elem.price }}</div>
-          <button
-            class="active:scale-95 rounded-md hover:cursor-pointer w-fit transition">
+          <button class="active:scale-95 rounded-md hover:cursor-pointer w-fit transition">
             <CardHover
               border-radius="var(--radius-box)"
               container-color="var(--color-base-200)"
               light-color="var(--color-secondary-content)"
               base-color="var(--color-base-200)">
-              <div class="py-2 px-4 font-semibold text-sm">
-                ДОБАВИТЬ В КОРЗИНУ
-              </div>
+              <div class="py-2 px-4 font-semibold text-sm">ДОБАВИТЬ В КОРЗИНУ</div>
             </CardHover>
           </button>
         </div>
