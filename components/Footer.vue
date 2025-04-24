@@ -19,7 +19,7 @@
                     </div>
                 </div>
                 <div class="flex gap-3">
-                    <div><a href="https://web.telegram.org/a/#1545469270">
+                    <div><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 22 22"
                                 fill="none">
                                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -29,7 +29,7 @@
                         </a>
                     </div>
                     <div>
-                        <a href="https://vk.com/kill_graf_mind">
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 22 22"
                                 fill="none">
                                 <path
@@ -42,9 +42,9 @@
                         </a>
                     </div>
                 </div>
-                <div class="flex gap-3 lg:flex-col">
-                    <div>+7 777 231 33 44</div>
-                    <div> fashion.ds@gmail.com</div>
+                <div class="flex gap-3 lg:gap-0 lg:flex-col">
+                    <a href=""><div class="hover:text-secondary-content">+7 777 231 33 44</div></a>
+                    <a href=""><div class="hover:text-secondary-content"> fashion.ds@gmail.com</div></a>
                 </div>
             </div>
         </div>

@@ -22,8 +22,9 @@
                     <div>Наш магазин отличается высоким качеством <br> товаров и доступными ценами.</div>
                 </div>
                 <div class="mt-5">
-                    <button
-                        class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl bg-secondary text-primary-content px-10">Перейти</button>
+                    <a href="#category">
+                        <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl bg-secondary text-primary-content px-10">Перейти</button>
+                    </a>
                 </div>
             </div>
             <div class="w-fit">

@@ -1,7 +1,7 @@
 <template>
     <div class="p-10 2xl:p-32">
         <div id="about" class="text-3xl">О нас</div>
-        <div class="flex flex-col lg:flex-row lg:gap-15 items-center mt-8 px-14 justify-between">
+        <div class="flex flex-col lg:flex-row lg:gap-30 items-center mt-8 px-14 justify-between">
             <div class="w-1/2"><img src="../public/img/uncle.png" alt=""></div>
             <div class="w-full lg:w-1/2 text-center flex flex-col gap-10 mt-4">
                 <div class="text-3xl xl:text-5xl font-normal text-center"><h1>FASHION | DSTYLE </h1></div>

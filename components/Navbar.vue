@@ -1,6 +1,6 @@
 <template>
   <div class="p-3 2xl:px-32">
-    <div class="navbar bg-base-100 justify-between gap-5">
+    <div class="navbar bg-base-100 justify-between gap-10">
       <div class="navbar-start gap-3">
         <div class="text-xl flex items-center gap-4">
           <div><img src="../public/img/logo.png" alt="" /></div>
@@ -56,8 +56,9 @@
         <div class="flex gap-5">
           <div class="flex gap-5">
             <a href="#about" class="hover:cursor-pointer hover:text-secondary">
-              <div class="text-xl md:text-base lg:text-lg xl:text-xl">
-                О нас
+              <div class="text-xl md:text-base lg:text-lg xl:text-xl flex gap-2">
+                <div>О</div>
+                <div>нас</div>
               </div>
             </a>
             <a href="#woman" class="hover:cursor-pointer hover:text-secondary">

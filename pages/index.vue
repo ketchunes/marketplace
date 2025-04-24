@@ -1,4 +1,5 @@
 <template>
+    <title>FASHION | DSTYLE</title>
     <div>
         <Navbar/>
         <Banner/>
