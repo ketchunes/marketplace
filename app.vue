@@ -1,7 +1,7 @@
 <template>
-  <div data-theme="synthwave">
+  <div>
     <NuxtRouteAnnouncer />
     <!-- <NuxtWelcome /> -->
-    <NuxtPage/>
+    <NuxtPage />
   </div>
 </template>
