@@ -67,8 +67,8 @@
 							<? } ?> -->
             </div>
           </div>
-          <a
-            href="../project/handler/delete.php?id=<?= $items[0] ?>"
+          <button
+            @click.prevent="deleteItemById(item.id, localItems)"
             class="w-5 h-5 min-h-5 btn btn-circle btn-outline group">
             <svg
               width="12"
@@ -83,7 +83,7 @@
                 class="group-hover:invert stroke-base-content"
                 d="M3.11005 3.23413L8.88938 8.7658" />
             </svg>
-          </a>
+          </button>
         </div>
       </div>
     </div>
@@ -91,10 +91,19 @@
 </template>
 
 <script setup>
+  const localItems = useLocalStorage("items", []);
+
   defineProps({
     item: {
       type: Object,
       required: true,
     },
   });
+
+  function deleteItemById(itemId, itemsArray) {
+    const index = itemsArray.findIndex((item) => {
+      return item.id === itemId;
+    });
+    itemsArray.splice(index, 1);
+  }
 </script>

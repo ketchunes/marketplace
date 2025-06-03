@@ -14,8 +14,7 @@
         <a href="#katalog">
           <div
             class="border-2 border-secondary py-2 px-5 rounded-2xl xl:px-10 hover:bg-secondary group">
-            <div
-              class="size-full flex items-center gap-3 hover:border-transparent">
+            <div class="size-full flex items-center gap-3 hover:border-transparent">
               <div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -23,10 +22,7 @@
                   height="20"
                   viewBox="0 0 20 20"
                   fill="none">
-                  <rect
-                    class="group-hover:fill-base-100 fill-secondary"
-                    width="9"
-                    height="9" />
+                  <rect class="group-hover:fill-base-100 fill-secondary" width="9" height="9" />
                   <rect
                     class="group-hover:fill-base-100 fill-secondary"
                     x="11"
@@ -45,9 +41,7 @@
                     height="9" />
                 </svg>
               </div>
-              <div class="text-md group-hover:text-base-100">
-                Каталог одежды
-              </div>
+              <div class="text-md group-hover:text-base-100">Каталог одежды</div>
             </div>
           </div>
         </a>
@@ -56,38 +50,27 @@
         <div class="flex gap-5">
           <div class="flex gap-5">
             <a href="#about" class="hover:cursor-pointer hover:text-secondary">
-              <div
-                class="text-xl md:text-base lg:text-lg xl:text-xl flex gap-2">
+              <div class="text-xl md:text-base lg:text-lg xl:text-xl flex gap-2">
                 <div>О</div>
                 <div>нас</div>
               </div>
             </a>
             <a href="#woman" class="hover:cursor-pointer hover:text-secondary">
-              <div class="text-xl md:text-base lg:text-lg xl:text-xl">
-                Распродажа
-              </div>
+              <div class="text-xl md:text-base lg:text-lg xl:text-xl">Распродажа</div>
             </a>
           </div>
           <div class="flex gap-5">
-            <a
-              href="#category"
-              class="hover:cursor-pointer hover:text-secondary">
-              <div class="text-xl md:text-base lg:text-lg xl:text-xl">
-                Популярное
-              </div>
+            <a href="#category" class="hover:cursor-pointer hover:text-secondary">
+              <div class="text-xl md:text-base lg:text-lg xl:text-xl">Популярное</div>
             </a>
             <a href="#footer" class="hover:cursor-pointer hover:text-secondary">
-              <div class="text-xl md:text-base lg:text-lg xl:text-xl">
-                Контакты
-              </div>
+              <div class="text-xl md:text-base lg:text-lg xl:text-xl">Контакты</div>
             </a>
           </div>
         </div>
         <div class="gap-4 hidden 2xl:flex items-center">
           <div>
-            <a
-              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-              target="_blank">
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="22"
@@ -103,9 +86,7 @@
             </a>
           </div>
           <div>
-            <a
-              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-              target="_blank">
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="22"
@@ -124,9 +105,7 @@
             </a>
           </div>
           <div class="flex items-center">
-            <a
-              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-              target="_blank">
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="22"
@@ -140,7 +119,12 @@
             </a>
           </div>
           <!-- Basket -->
-          <div class="cursor-pointer" onclick="basket_modal.show()">
+          <div class="cursor-pointer relative" onclick="basket_modal.show()">
+            <div class="absolute -top-3 -right-3">
+              <div class="size-5 rounded-full bg-secondary grid place-content-center">
+                <span class="text-xs text-primary-content">{{ localItems.length }}</span>
+              </div>
+            </div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="22"
@@ -200,3 +184,7 @@
     <Basket />
   </div>
 </template>
+
+<script setup>
+  const localItems = useLocalStorage("items", []);
+</script>
