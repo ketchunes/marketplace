@@ -24,7 +24,7 @@
         <div v-else class="flex flex-col gap-5">
           <BasketItem :item="item" v-for="item in localItems" />
         </div>
-        <button @click="localItems = []" class="btn btn-error">Clear</button>
+        <button @click="localItems = []" class="btn btn-error mt-2">Clear</button>
         <div class="divider"></div>
 
         <!-- if there is a button in form, it will close the modal -->
